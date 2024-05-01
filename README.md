@@ -1,5 +1,4 @@
-https://dheeraj5988.github.io/blockchainchatapp/index.html
-
+https://github.com/SQAEngineerProgrammer/MRehmanChinChat.github.io.git
 # blockchainchatapp
 Creating blockchain based chatting app for hackathon 
 # Private Messaging and Verification Project
@@ -23,14 +22,14 @@ Follow these steps to set up and use the project:
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
-   ```bash
-   git clone https://github.com/dheeraj5988/blockchainchatapp.git
-   ```
+   
+   
+   
 
 2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using npm or yarn:
 
    ```bash
-   cd private-messaging-project
+   cd BlockchainChatApp-main
    npm install
    ```
 
