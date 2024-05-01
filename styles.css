@@ -1,0 +1,109 @@
+/* CSS code for styling the chat application */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set the container height to full viewport height */
+    align-items: center; /* Align children horizontally at the center */
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+main {
+    flex: 2; /* Allow the main section to expand to fill available space */
+    display: flex;
+    justify-content: center; /* Center the chat containers horizontally */
+    margin-top: 20px;
+}
+
+.chat-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; /* Ensure the chat containers occupy the full width */
+    max-width: 1200px; /* Limit the width of the chat containers */
+}
+
+.chat,
+.private-chat {
+    width: 48%; /* Set width for each container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.private-chat {
+    margin-left: 20px; /* Add some space between containers */
+}
+
+.chat-container h2 {
+    margin-bottom: 10px;
+}
+
+.chat-container form {
+    margin-bottom: 10px;
+}
+
+.chat,
+.private-chat {
+    height: 300px; /* Set the desired height */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+
+
+
+
+.get-started-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+    border-radius: 15px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.get-started-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
